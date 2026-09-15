@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Hide Next.js development indicator */
+nextjs-portal,
+body>nextjs-portal,
+[data-nextjs-toast],
+[data-nextjs-toast-wrapper],
+#next-logo-container,
+button[aria-label*="Next.js"],
+button[aria-label*="nextjs"] {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+}
